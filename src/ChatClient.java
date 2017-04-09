@@ -47,7 +47,7 @@ public class ChatClient {
 		JButton sendButton = new JButton("Send") ;
 		sendButton.addActionListener(new SendButtonListener()) ; 
 		
-		mainPanel.add(incoming) ; 
+		mainPanel.add(qScroller) ; 
 		mainPanel.add(outgoing) ; 
 		mainPanel.add(sendButton) ; 
 		
